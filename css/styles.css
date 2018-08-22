@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+body,html {
+    height: 100%;
+    background-color: #dbd7d2;
+}
+
+#Arena { /*arena styles */
+    display: block;
+    width: 45em;
+    height: 25em;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url('../images/bg.jpg')
+}
+
+
+#leftBar { /* left bar */
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.2);
+}
+
+#playerProfile {
+    height:50%;
+    margin-top: 150%;
+    display: table;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+}
+
+#playerProfile > img {
+    display: table;
+    margin: 0 auto;
+    width: 90%;
+    transform: scaleX(-1);
+}
+/* everything in between */
+#pokemon {
+    width: 98px;
+    height: 98px;
+    position: relative;
+    bottom: 15%;
+    left: 4%;
+}
+
+#score {
+    display: inline-block;
+    font-size: 55px;
+    margin: 0;
+    position: relative;
+    left: 32%;
+    bottom: 60%;
+}
+/*oof */
+#rightBar { /* right bar*/
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: rgba(255,255,255,0.2);
+}
+
+#numberProfile {
+    display: table;
+    margin-top: 25%;
+    height:50%;
+    text-align: center;
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+}
+
+#numberProfile > img {
+    display: table;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#moveList { /*Buttons*/
+    display: flex;
+    width: 45em;
+    margin: 1% auto;
+}
+
+.Button {
+    width:11.25em;
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+#audio {
+    display: none;
+}
